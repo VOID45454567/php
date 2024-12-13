@@ -1,0 +1,30 @@
+body{
+    background-color: #424242;
+    color: white;
+    form{
+        width: 40%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        input[type="text"], textarea{
+            width: 50%;
+            margin: 0 auto;
+        }
+        button{
+            width: 50%;
+            margin: 0 auto;
+            height: 30px;
+            border: 1px solid rgb(22, 255, 197);
+            background: #424242;
+            color: white;
+            border-radius: 10px;
+            transition: 0.2s;
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: rgb(22, 255, 197);
+            color: black;
+        }
+    }
+}
